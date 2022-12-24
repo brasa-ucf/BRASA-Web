@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import { useRouter } from 'next/router'
-import { type FC } from 'react'
+import { useState, type FC } from 'react'
 
 const NavOptions: FC = () => {
+  const [showLogin, setShowLogin] = useState<boolean>(true);
 
   return (
 		<>
@@ -38,7 +38,7 @@ const NavOptions: FC = () => {
             </li>
           </ul>
         </div>
-
+        
         <div className='order-last'>
           <ul className='flex flex-row items-center p-4 rounded-lg text-white md:space-x-8 md:text-sm md:font-medium'>
             <li>
