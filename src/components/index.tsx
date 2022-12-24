@@ -4,5 +4,5 @@ import Footer from "./Footer"
 
 export { 
     Navbar,
-    Footer 
+    Footer,
 }

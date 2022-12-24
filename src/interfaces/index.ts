@@ -7,3 +7,12 @@
 export type ResponseData = {
   status: "success"|"error"
 }
+
+export interface User {
+  email: null | string,
+  id: null | number
+}
+
+export interface LoginProps {
+  setShowLogin: React.Dispatch<React.SetStateAction<boolean>>
+}
