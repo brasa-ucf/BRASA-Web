@@ -1,8 +1,8 @@
-import { User } from "../interfaces"
+import { User } from "@interfaces"
 
-const loggedUser: User = {
+const LoggedUser: User = {
   email: null,
   id: null
 }
 
-export default loggedUser
+export default LoggedUser
